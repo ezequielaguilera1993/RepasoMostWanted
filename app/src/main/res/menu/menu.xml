@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/bug"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="Avisar bug"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menos"
+        android:icon="@android:drawable/btn_minus"
+        android:title="-Tamaño de la fuente"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mas"
+        android:icon="@android:drawable/btn_plus"
+        android:title="+Tamaño de la fuente"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/estad"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Progreso"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ant_pregunta"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Anterior"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sig_pregunta"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="Siguiente"
+        app:showAsAction="always" />
+
+
+
+</menu>

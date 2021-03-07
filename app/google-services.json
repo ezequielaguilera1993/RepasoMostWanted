@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050877426493",
+    "project_id": "repasomostwanted",
+    "storage_bucket": "repasomostwanted.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050877426493:android:52a3600623f051d332a354",
+        "android_client_info": {
+          "package_name": "com.bohem.repasomostwanted"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050877426493-kpkqi28rr89psu2fsvs4cv9u9jdkgkit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM8IJIQxTAFaikcDwD2Uap1RIvIn7-dJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050877426493-kpkqi28rr89psu2fsvs4cv9u9jdkgkit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

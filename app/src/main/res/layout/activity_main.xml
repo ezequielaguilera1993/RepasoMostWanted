@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondock"
+    >
+
+
+    <Button
+        android:id="@+id/contribuciones"
+        android:layout_width="355dp"
+        android:layout_height="162dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/contribucion_geffner"
+       />
+
+    <ImageView
+        android:id="@+id/contribucion_cartel"
+        android:layout_width="355dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/contribucion_cartel" />
+
+    <Button
+        android:id="@+id/compilado"
+        android:layout_width="355dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Compilado de choices (2020)"
+        android:textAllCaps="false"
+        android:background="#99AA99"
+        android:textSize="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:text="(Para ver mas capitulos desplazate hacia abajo)"
+                android:textAllCaps="false"
+                android:background="@drawable/shape_bordes_redondeados"
+                android:gravity="center"
+                android:textColor="#111"
+
+                />
+
+
+            <Button
+                android:id="@+id/intro"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="intro"
+                android:text="Capítulo 1: La célula como unidad de salud y enfermedad" />
+
+            <Button
+                android:id="@+id/celula"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="celula"
+                android:text="Capítulo 2: Patología celular" />
+
+            <Button
+                android:id="@+id/infrep"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="infrep"
+                android:text="Capítulo 3: Inflamación y reparación" />
+
+            <Button
+                android:id="@+id/hemo"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="hemo"
+                android:text="Capítulo 4: Trastornos hemodinámicos" />
+
+            <Button
+                android:id="@+id/genetica"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="genetica"
+                android:text="Capítulo 5: Trastornos genéticos" />
+
+            <Button
+                android:id="@+id/inmuno"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="inmuno"
+                android:text="Capítulo 6: Enfermedades del sistema inmunitario" />
+
+
+            <Button
+                android:id="@+id/neo"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="neo"
+                android:text="Capítulo 7: Neoplasias" />
+
+
+            <Button
+                android:id="@+id/infecciosas"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="infecciosas"
+                android:text="Capítulo 8: Enfermedades infecciosas" />
+
+
+            <Button
+                android:id="@+id/ambnut"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="ambnut"
+                android:text="Capítulo 9: Enfermedades ambientales y nutricionales" />
+
+
+            <Button
+                android:id="@+id/lacinfancia"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="lacinfancia"
+                android:text="Capítulo 10: Enfermedades de la lactancia y la infancia" />
+
+
+            <Button
+                android:id="@+id/vasos"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="vasos"
+                android:text="Capítulo 11: Vasos sanguíneos" />
+
+
+            <Button
+                android:id="@+id/cora"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="cora"
+                android:text="Capítulo 12: Corazón" />
+
+
+            <Button
+                android:id="@+id/leuco"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="leuco"
+                android:text="Capítulo 13: Hematopatología de los leucocitos" />
+
+
+            <Button
+                android:id="@+id/eritro"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="eritro"
+                android:text="Capítulo 14: Hematopatología de los eritrocitos y trastornos hemorrágicos" />
+
+
+            <Button
+                android:id="@+id/pulmon"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="pulmon"
+                android:text="Capítulo 15: Pulmón" />
+
+
+            <Button
+                android:id="@+id/cabcue"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="cabcue"
+                android:text="Capítulo 16: Cabeza y cuello" />
+
+
+            <Button
+                android:id="@+id/diges"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="diges"
+                android:text="Capítulo 17: Tubo digestivo" />
+
+
+            <Button
+                android:id="@+id/higado"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="higado"
+                android:text="Capítulo 18: Hígado y vía biliar" />
+
+
+            <Button
+                android:id="@+id/pancreas"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="pancreas"
+                android:text="Capítulo 19: Páncreas" />
+
+
+            <Button
+                android:id="@+id/riñon"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="riñon"
+                android:text="Capítulo 20: Riñón" />
+
+
+            <Button
+                android:id="@+id/masculino"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="masculino"
+                android:text="Capítulo 21: Vías urinarias bajas y aparato genital masculino" />
+
+
+            <Button
+                android:id="@+id/femenino"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="femenino"
+                android:text="Capítulo 22: Aparato genital femenino" />
+
+
+            <Button
+                android:id="@+id/mama"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="mama"
+                android:text="Capítulo 23: Mama" />
+
+
+            <Button
+                android:id="@+id/endocrino"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="endocrino"
+                android:text="Capítulo 24: Sistema endocrino" />
+
+
+            <Button
+                android:id="@+id/piel"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="piel"
+                android:text="Capítulo 25: Piel" />
+
+
+            <Button
+                android:id="@+id/huesos"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="huesos"
+                android:text="Capítulo 26: Huesos, articulaciones y tumores de tejidos blandos" />
+
+
+            <Button
+                android:id="@+id/nervios"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="nervios"
+                android:text="Capítulo 27: Nervios periféricos y músculos esqueléticos" />
+
+
+            <Button
+                android:id="@+id/snc"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="snc"
+                android:text="Capítulo 28: Sistema nervioso central" />
+
+
+            <Button
+                android:id="@+id/ojo"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="ojo"
+                android:text="Capítulo 29: Ojo" />
+
+
+            <Button
+                android:id="@+id/repasofinal"
+                android:layout_width="400dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="final"
+                android:text="Capítulo 30: Repaso final y evaluación" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+</LinearLayout>
