@@ -66,7 +66,7 @@ class Preguntas : AppCompatActivity() {
         //visible(btn_verQue)
         s1 = 1
         arbuenas.clear()
-        th1.text = """Hola! Soy Ezequiel, este es el primer app dentro de todo seria que hice, la idea a futuro es crear apps similares y cobrarlas bien baratas.
+        th1.text = """Hola! Soy Ezequiel, este es el primer app dentro de todo seria que hago, la idea a futuro es crear apps similares y cobrarlas bien baratas.
 · Me sirve MUCHISIMO que me avisen cuando el app ande mal o falle, tambien si tienen ideas para que agregue. Si tocan el icono de "Problema" que está arrriba a la izquierda se abre mi WhatsApp sin que tengan que agendarme. Es tocar el icono, escribir, enviar y listo.
 · Para aumentar o reducir el tamaño de la letra usen las lupitas
 · Para ir a otras preguntas usen las flechas arriba y abajo
@@ -87,6 +87,7 @@ Mejoras y parcheadas
 • Redimensionamiento de las imagenes (para que se puedan mostrar sin colgarse en mas dispositivos)
 • Enlace a compilado de choices agregado a la pantalla principal
 • Letra de respuesta pintada de verde (para evitar confusiones)
+• Sincronizacion con control de fallas (si el app se les cuelga, se me avisa automaticamente que fue lo fallo y porque, para poder arreglarla mucho mas facil que antes)
 - Cualquier idea que tengas si queres comentamela y las voy implementando
 
 Saludos!

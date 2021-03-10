@@ -41,6 +41,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(i_contribuciones)
         }
 
+        cursos.setOnClickListener {
+            var url = "https://sites.google.com/view/bohemcapacitaciones/"
+            val i_contribuciones = Intent(Intent.ACTION_VIEW)
+            i_contribuciones.setData(Uri.parse(url))
+            startActivity(i_contribuciones)
+        }
+
 
 
 

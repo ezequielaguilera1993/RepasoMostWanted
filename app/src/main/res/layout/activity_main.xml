@@ -39,6 +39,18 @@
         android:textSize="20dp"
         />
 
+    <Button
+        android:id="@+id/cursos"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cursos"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20dp"
+        />
+
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
