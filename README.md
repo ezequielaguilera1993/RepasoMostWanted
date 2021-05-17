@@ -14,7 +14,9 @@ Al final termine el código y aplicandolo por unas 4hs extraje todo de forma ord
 
 ### Pregunta
 ![Imgur](https://i.imgur.com/tEKkjO9.jpg)
+
 ### Respuesta 
 ![Imgur](https://i.imgur.com/VRpDidb.jpg)
+
 ### Imagen mostrada
 ![Imgur](https://i.imgur.com/dCv8Ehv.jpg)
