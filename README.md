@@ -1,4 +1,4 @@
-# RepasoMostWanted (primer proyecto serio en programación)
+# RepasoMostWanted (primer proyecto serio en programación). KOTLIN
 ## Resumen
 App de preguntas y respuestas en base a un libro referente en patología médica. (usa Firebase)
 
